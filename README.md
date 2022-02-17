@@ -8,24 +8,24 @@ We need you to implement a solution to display price tickers data on the UI in r
 Price data is available from a locally running service (see information below). Any additional visualisations to indicate how prices have changed would be a plus. Testing is also an important part to this exercise.
 
 Requirements:
-+ application should connect to the locally running service
-+ application should render price changes for some tickers in real time
++ &#8594; application should connect to the locally running service
++ &#8594; application should render price changes for some tickers in real time
 
 You can get some ideas how your application may look like on the [Google Finance](https://www.google.com/finance/) page.
 
 As a bonus you can implement (please describe implemented bonus functionality in this file):
-+ any additional visual effects to highlight positive or negative changes in the prices 
++ &#8594; any additional visual effects to highlight positive or negative changes in the prices 
 - the possibility to switch on/off tickers by user
 - the possibility to specify interval time by user
 - the possibility to add/remove ticker from watching group
 - any additional functionality you consider useful
 
 You should use the next technologies:
-+ React (preferable with hooks)
-+ Redux (with Redux-Thunk or any other Redux middleware you are familiar) or any other state-manager library you want
-+ Socket.io - to connect to the service
-+ any UI library you want, or you can use just pure CSS (Material UI)
-+ Testing Library (Jest, Enzyme)
++ &#8594; React (preferable with hooks)
++ &#8594; Redux (with Redux-Thunk or any other Redux middleware you are familiar) or any other state-manager library you want (Redux-Saga)
++ &#8594; Socket.io - to connect to the service
++ &#8594; any UI library you want, or you can use just pure CSS (Material UI)
++ &#8594; Testing Library (Jest, Enzyme)
 
 We will assess the next parts:
 - workability: how your application works
