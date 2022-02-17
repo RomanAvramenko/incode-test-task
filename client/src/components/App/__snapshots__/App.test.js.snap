@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component Should render App component 1`] = `
+<div
+  className="App"
+>
+  <ForwardRef(Box)
+    sx={
+      Object {
+        "& > :not(style)": Object {
+          "height": 46,
+          "m": 1,
+          "width": 167,
+        },
+        "display": "flex",
+        "flexWrap": "wrap",
+        "justifyContent": "center",
+        "margin": "1em",
+      }
+    }
+  />
+</div>
+`;
